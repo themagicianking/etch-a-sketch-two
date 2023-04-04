@@ -1,1 +1,11 @@
-.row
+.grid {
+    height: 800px;
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    height: 50px;
+    width: 50px;
+}
