@@ -15,16 +15,17 @@ button {
 }
 
 .grid {
-    height: 800px;
-    width: 800px;
+    height: 500px;
+    width: 500px;
     display: flex;
     flex-wrap: wrap;
     border-style: groove;
 }
 
 .box {
-    height: 50px;
-    width: 50px;
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 
 .color {
